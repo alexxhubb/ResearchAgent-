@@ -39,7 +39,7 @@ research-agent/
 └── README.md
 ```
 ##SCREENSHOTS
-```
+
 <img width="1920" height="1080" alt="Screenshot (28)" src="https://github.com/user-attachments/assets/500cfa5b-fd52-4b87-aefb-f93ab035eaf8" />
 <img width="1920" height="1080" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/200c5eb2-b385-4e87-a0a3-d8a8f421c805" />
 <img width="1920" height="1080" alt="Screenshot (30)" src="https://github.com/user-attachments/assets/c6cfe98d-2e6f-44a2-bdda-3f231f569bee" />
@@ -50,7 +50,7 @@ research-agent/
 <img width="1920" height="1080" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/159a9ac3-8064-416a-bb39-05af4dcc6e96" />
 <img width="1920" height="1080" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/507d5532-f39d-4c66-8681-ff5799ea25d3" />
 
-```
+
 ## Setup Instructions
 
 ### Prerequisites
