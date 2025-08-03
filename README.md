@@ -97,62 +97,6 @@ research-agent/
 │   └── run-frontend.ps1          # ⚛️ React frontend launcher
 └── 📖 README.md                  # 📚 This documentation
 ```
-
-
-## Setup Instructions
-
-### Prerequisites
-
-- Python 3.8+ with pip
-- Node.js 16+ with npm
-- Java 11+ (for Java backend)
-- Scala 2.13+ (for Scala backend)
-- PowerShell (Windows)
-
-### Manual Setup
-
-#### Backend Setup
-
-**Python Backend (Port 3000):**
-```powershell
-cd backend
-pip install -r requirements.txt
-python python_server.py
-```
-
-**Node.js Backend (Port 3001):**
-```powershell
-cd backend
-npm install
-node node_server.js
-```
-
-**Java Backend (Port 3002):**
-```powershell
-cd backend
-# Add required dependencies (Gson, etc.) to classpath
-javac -cp "gson.jar" WatsonResearchAgent.java
-java -cp ".:gson.jar" WatsonResearchAgent
-```
-
-**Scala Backend (Port 3003):**
-```powershell
-cd backend
-# Compile with required dependencies
-scalac -cp "scalaj-http.jar:play-json.jar" WatsonResearchAgentScala.scala
-scala -cp ".:scalaj-http.jar:play-json.jar" WatsonResearchAgentScala
-```
-
-#### Frontend Setup
-
-```powershell
-cd frontend
-npm install
-npm start
-```
-
-The frontend will be available at http://localhost:3000
-
 ## Usage
 
 1. **Start your chosen backend(s)**
@@ -164,7 +108,6 @@ The frontend will be available at http://localhost:3000
 
 ## 🖼️ Screenshots & Demo
 
-<details>
 
 ### 🏠 Dashboard Overview
 <img width="100%" alt="Dashboard" src="https://github.com/user-attachments/assets/500cfa5b-fd52-4b87-aefb-f93ab035eaf8" />
@@ -193,7 +136,6 @@ The frontend will be available at http://localhost:3000
 ### 📈 Performance Metrics
 <img width="100%" alt="Performance Dashboard" src="https://github.com/user-attachments/assets/507d5532-f39d-4c66-8681-ff5799ea25d3" />
 
-</details>
 
 ---
 
