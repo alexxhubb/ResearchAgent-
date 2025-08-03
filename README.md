@@ -1,42 +1,101 @@
-# Watson ML Research Agent
+# 🤖 Watson ML Research Agent
 
-A comprehensive research agent powered by IBM Watson ML with multiple backend implementations and a modern React frontend.
+<div align="center">
 
-## Features
+![Watson ML Research Agent](https://img.shields.io/badge/Watson%20ML-Research%20Agent-blue?style=for-the-badge&logo=ibm)
+![Version](https://img.shields.io/badge/version-1.0.0-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-orange?style=for-the-badge)
 
-- 🔬 AI-powered research assistant using IBM Watson ML
-- 🚀 Multiple backend implementations (Python, Node.js, Java, Scala)
-- 💬 Two interaction modes: Simple Research & Chat Mode
-- 🎨 Modern, responsive React frontend
-- 🔄 Real-time connection testing
-- 📱 Mobile-friendly design
+**A next-generation AI-powered research assistant that transforms how you discover and analyze information**
 
-## Project Structure
+[🚀 Quick Start](#-quick-setup) • [📚 Documentation](#-usage) • [🛠️ API Reference](#-api-endpoints) • [💡 Examples](#-examples) • [🤝 Contributing](#-contributing)
+
+</div>
+---
+
+## ✨ Features
+
+<table>
+<tr>
+<td>
+
+🧠 **AI-Powered Intelligence**
+- Advanced IBM Watson ML integration
+- Context-aware research capabilities
+- Intelligent query understanding
+
+</td>
+<td>
+
+🚀 **Multi-Backend Architecture**
+- Python Flask (Performance)
+- Node.js Express (Speed)
+- Java (Enterprise)
+- Scala (Functional)
+
+</td>
+</tr>
+<tr>
+<td>
+
+💬 **Dual Interaction Modes**
+- Simple Research (Quick answers)
+- Chat Mode (Conversational AI)
+- Real-time responses
+
+</td>
+<td>
+
+🎨 **Modern Frontend**
+- Responsive React interface
+- Mobile-optimized design
+- Real-time connection testing
+
+</td>
+</tr>
+</table>
+
+---
+## 🏗️ Architecture Overview
+
+```mermaid
+graph TB
+    A[React Frontend :3000] --> B[Load Balancer]
+    B --> C[Python Backend :3000]
+    B --> D[Node.js Backend :3001]
+    B --> E[Java Backend :3002]
+    B --> F[Scala Backend :3003]
+    C --> G[IBM Watson ML API]
+    D --> G
+    E --> G
+    F --> G
+```
+## 📁 Project Structure
 
 ```
 research-agent/
-├── config.env                 # Configuration file
-├── backend/
-│   ├── python_server.py       # Python Flask backend
-│   ├── requirements.txt       # Python dependencies
-│   ├── node_server.js         # Node.js Express backend
-│   ├── package.json           # Node.js dependencies
-│   ├── WatsonResearchAgent.java # Java backend
-│   └── WatsonResearchAgentScala.scala # Scala backend
-├── frontend/
-│   ├── package.json           # React dependencies
+├── 📄 config.env                 # 🔧 Environment configuration
+├── 🐍 backend/
+│   ├── python_server.py          # 🚀 Flask server (Python 3.8+)
+│   ├── requirements.txt          # 📦 Python dependencies
+│   ├── node_server.js            # ⚡ Express server (Node.js 16+)
+│   ├── package.json              # 📦 Node.js dependencies
+│   ├── WatsonResearchAgent.java  # ☕ Java implementation (Java 11+)
+│   └── WatsonResearchAgentScala.scala # 🔥 Scala implementation (2.13+)
+├── 🎨 frontend/
+│   ├── package.json              # ⚛️ React dependencies
 │   ├── public/
-│   │   └── index.html
+│   │   └── index.html            # 🌐 Main HTML template
 │   └── src/
-│       ├── index.js
-│       ├── index.css
-│       └── App.js
-├── scripts/
-│   ├── setup.ps1             # PowerShell setup script
-│   ├── run-python.ps1        # Run Python backend
-│   ├── run-node.ps1          # Run Node.js backend
-│   └── run-frontend.ps1      # Run React frontend
-└── README.md
+│       ├── index.js              # 🚀 React entry point
+│       ├── index.css             # 💄 Global styles
+│       └── App.js                # 🧩 Main application component
+├── ⚙️ scripts/
+│   ├── setup.ps1                 # 🔧 Automated setup (Windows)
+│   ├── run-python.ps1            # 🐍 Python server launcher
+│   ├── run-node.ps1              # ⚡ Node.js server launcher
+│   └── run-frontend.ps1          # ⚛️ React frontend launcher
+└── 📖 README.md                  # 📚 This documentation
 ```
 ##SCREENSHOTS
 
@@ -159,150 +218,6 @@ Edit `config.env` to configure:
 - Check if the backend server is running
 - Ensure no firewall is blocking the ports
 - Test the /health endpoint directly
-
-### Backend-Specific Issues
-
-**Python:**
-- Install dependencies: `pip install -r requirements.txt`
-- Check Python version: `python --version`
-
-**Node.js:**
-- Install dependencies: `npm install`
-- Check Node version: `node --version`
-
-**Java:**
-- Ensure Java 11+ is installed
-- Add required JAR files to classpath
-- Check JAVA_HOME environment variable
-
-**Scala:**
-- Ensure Scala 2.13+ is installed
-- Add required JAR dependencies
-- Check Scala version: `scala -version`
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test with all backends
-5. Submit a pull request
-
-## License
-
-MIT License - see LICENSE file for details
-
-## Support
-
-For issues and questions:
-1. Check the troubleshooting section
-2. Review the IBM Watson ML documentation
-3. Open an issue on GitHub
-
-# 🤖 Watson ML Research Agent
-
-<div align="center">
-
-![Watson ML Research Agent](https://img.shields.io/badge/Watson%20ML-Research%20Agent-blue?style=for-the-badge&logo=ibm)
-![Version](https://img.shields.io/badge/version-1.0.0-brightgreen?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-orange?style=for-the-badge)
-
-**A next-generation AI-powered research assistant that transforms how you discover and analyze information**
-
-[🚀 Quick Start](#-quick-setup) • [📚 Documentation](#-usage) • [🛠️ API Reference](#-api-endpoints) • [💡 Examples](#-examples) • [🤝 Contributing](#-contributing)
-
-</div>
-
----
-
-## ✨ Features
-
-<table>
-<tr>
-<td>
-
-🧠 **AI-Powered Intelligence**
-- Advanced IBM Watson ML integration
-- Context-aware research capabilities
-- Intelligent query understanding
-
-</td>
-<td>
-
-🚀 **Multi-Backend Architecture**
-- Python Flask (Performance)
-- Node.js Express (Speed)
-- Java (Enterprise)
-- Scala (Functional)
-
-</td>
-</tr>
-<tr>
-<td>
-
-💬 **Dual Interaction Modes**
-- Simple Research (Quick answers)
-- Chat Mode (Conversational AI)
-- Real-time responses
-
-</td>
-<td>
-
-🎨 **Modern Frontend**
-- Responsive React interface
-- Mobile-optimized design
-- Real-time connection testing
-
-</td>
-</tr>
-</table>
-
----
-
-## 🏗️ Architecture Overview
-
-```mermaid
-graph TB
-    A[React Frontend :3000] --> B[Load Balancer]
-    B --> C[Python Backend :3000]
-    B --> D[Node.js Backend :3001]
-    B --> E[Java Backend :3002]
-    B --> F[Scala Backend :3003]
-    C --> G[IBM Watson ML API]
-    D --> G
-    E --> G
-    F --> G
-```
-
-## 📁 Project Structure
-
-```
-research-agent/
-├── 📄 config.env                 # 🔧 Environment configuration
-├── 🐍 backend/
-│   ├── python_server.py          # 🚀 Flask server (Python 3.8+)
-│   ├── requirements.txt          # 📦 Python dependencies
-│   ├── node_server.js            # ⚡ Express server (Node.js 16+)
-│   ├── package.json              # 📦 Node.js dependencies
-│   ├── WatsonResearchAgent.java  # ☕ Java implementation (Java 11+)
-│   └── WatsonResearchAgentScala.scala # 🔥 Scala implementation (2.13+)
-├── 🎨 frontend/
-│   ├── package.json              # ⚛️ React dependencies
-│   ├── public/
-│   │   └── index.html            # 🌐 Main HTML template
-│   └── src/
-│       ├── index.js              # 🚀 React entry point
-│       ├── index.css             # 💄 Global styles
-│       └── App.js                # 🧩 Main application component
-├── ⚙️ scripts/
-│   ├── setup.ps1                 # 🔧 Automated setup (Windows)
-│   ├── run-python.ps1            # 🐍 Python server launcher
-│   ├── run-node.ps1              # ⚡ Node.js server launcher
-│   └── run-frontend.ps1          # ⚛️ React frontend launcher
-└── 📖 README.md                  # 📚 This documentation
-```
-
----
 
 ## 🖼️ Screenshots & Demo
 
