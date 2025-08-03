@@ -109,31 +109,31 @@ research-agent/
 ## 🖼️ Screenshots & Demo
 
 
-### 🏠 Dashboard Overview
+### 🏠 IBM Portal Overview
 <img width="100%" alt="Dashboard" src="https://github.com/user-attachments/assets/500cfa5b-fd52-4b87-aefb-f93ab035eaf8" />
 
-### 🔍 Research Interface
+### 🔍 Setup Interface
 <img width="100%" alt="Research Mode" src="https://github.com/user-attachments/assets/200c5eb2-b385-4e87-a0a3-d8a8f421c805" />
 
 ### 💬 Chat Mode
 <img width="100%" alt="Chat Interface" src="https://github.com/user-attachments/assets/c6cfe98d-2e6f-44a2-bdda-3f231f569bee" />
 
-### ⚙️ Backend Selection
+### ⚙️ Tools Selection
 <img width="100%" alt="Backend Configuration" src="https://github.com/user-attachments/assets/2a94b0ab-c7cd-4278-8d77-48e043092916" />
 
-### 📊 Analytics Dashboard
+### 📊 Assets Dashboard
 <img width="100%" alt="Analytics" src="https://github.com/user-attachments/assets/0a694e33-1d3e-4b04-955d-7421174a6ad3" />
 
-### 🔗 Connection Testing
+### 🔗 Deployment Testing
 <img width="100%" alt="Connection Test" src="https://github.com/user-attachments/assets/4941102d-5d3c-4ef2-bdc2-45ce654c67b8" />
 
-### 📱 Mobile Interface
+### 📱 Dashboard Interface
 <img width="100%" alt="Mobile View" src="https://github.com/user-attachments/assets/29669f8e-0e5b-4966-a5ce-c71c531695d0" />
 
-### 🎨 Theme Options
+### 🎨 Multimode Options
 <img width="100%" alt="Theme Selection" src="https://github.com/user-attachments/assets/159a9ac3-8064-416a-bb39-05af4dcc6e96" />
 
-### 📈 Performance Metrics
+### 📈 Multi Backend
 <img width="100%" alt="Performance Dashboard" src="https://github.com/user-attachments/assets/507d5532-f39d-4c66-8681-ff5799ea25d3" />
 
 
@@ -203,7 +203,7 @@ research-agent/
 
 ## 🛠️ Manual Setup (Advanced Users)
 
-<details>
+
 <summary>🔧 Click for detailed manual installation steps</summary>
 
 ### 🐍 Python Backend (Recommended for AI/ML workloads)
@@ -253,7 +253,7 @@ npm start
 ```
 **🎨 Frontend available at:** `http://localhost:3000`
 
-</details>
+
 
 ---
 
